@@ -1,0 +1,7 @@
+ //accomodation section
+ .accomodation{
+    &-title{
+        @include sectionHeading;
+        padding: 5rem 0;
+    }
+}

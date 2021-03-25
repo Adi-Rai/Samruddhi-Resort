@@ -1,25 +1,25 @@
 .footer{
     padding: 5rem 0;
-    background-image: linear-gradient(to right,rgba(#fff,0.8),rgba(#fff,0.6)),url('../images/pillow.jpg');
+    background-image: linear-gradient(to right,rgba(#fff,0.8),rgba($primary-color,0.5));
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    font-size: 3rem;
-    color: #7B9FAF;
+    font-size: 2.5rem;
+    color:$white-color;
 
     .navbar-items{
         .navbar-item{
             line-height: 1.5;
             list-style: none;
             a{
-               color: #7B9FAF;
+               color: $primary-color;
                text-decoration: none;
 
                &:hover{
                    transition: color 0.2s ease;
-                   color: #C19B76;
+                   color: darken($primary-color,30%);
                }
             }
         }    
@@ -27,37 +27,40 @@
 
     .contact{
         h3{
-            font-size: 4rem;
+            font-size: 3rem;
             letter-spacing: 2px;
             font-weight: normal;
             padding-bottom: 2rem;
+            color: $secondary-color;
         }
 
         p{
-            letter-spacing: 2.5px;
-            font-size: 3.5rem;
+            letter-spacing: 4.5px;
+            font-size: 2.5rem;
+
         }
     }
 
     .social{
         h3{
-            font-size: 4rem;
+            font-size: 3rem;
             font-weight: normal;
             letter-spacing: 2px;
             padding-bottom: 2rem;
+            color: $secondary-color;
         }
 
         a{
-            color:#7B9FAF;
+            color:$white-color;
             padding: 0 15px;
 
             &:hover{
-                color:#C19B76;
+                color:$secondary-color;
             }
         }
 
         a:first-child{
-            padding: 0 0;
+            padding: 0;
         }
     }
 }

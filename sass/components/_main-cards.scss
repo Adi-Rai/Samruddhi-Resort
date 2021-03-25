@@ -43,8 +43,13 @@
                 letter-spacing: 1.5px;
                 word-spacing: 6px;
                 
-                @include text-underline-animation($white-color,0.5s);
+                @include text-underline-animation2($secondary-color,0.5s);
             } 
+
+            &:hover{
+                transition: all 0.5s ease-in ;
+                color: $secondary-color;
+            }
         }    
     }
 
@@ -84,7 +89,12 @@
                 letter-spacing: 1.5px;
                 word-spacing: 6px;
                 
-                @include text-underline-animation($white-color,0.5s);
+                @include text-underline-animation2($secondary-color,0.5s);
+            }
+
+            &:hover{
+                transition: all 0.5s ease-in ;
+                color: $secondary-color;
             }
         } 
     }

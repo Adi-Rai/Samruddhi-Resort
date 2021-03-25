@@ -1,3 +1,6 @@
+
+//Slider
+
 const slides = document.querySelectorAll('.slide');
 console.log(slides[0]);
 const next  = document.querySelector('#next');

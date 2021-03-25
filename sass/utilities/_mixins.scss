@@ -28,6 +28,36 @@
     }
 }
 
+@mixin text-underline-animation2($color,$dur) {
+    a{
+        text-decoration: none;
+        color: $white-color;
+        position:relative;
+    
+        &:hover{
+            color:$color;
+        }
+    
+        &::before{
+            content: "";
+            position: absolute; 
+            width: 90%;
+            height: 2px;
+            bottom: 0;
+            left: 6%;
+            background-color: $color;
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all $dur ease-in-out 0s;
+        }
+    
+        &:hover::before{
+            visibility: visible;
+            transform: scaleX(1);
+        }
+    }
+}
+
 @mixin sectionHeading{
     text-align: center;
     font-size: 4rem;

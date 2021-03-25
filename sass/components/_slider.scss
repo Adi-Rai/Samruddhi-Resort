@@ -7,7 +7,8 @@
         margin: 0 auto;
         width: 90vw;
         height: 75vh;
-        
+        outline: solid 5px $secondary-color;
+        outline-offset: 15px;
 
         .slide{
             position: absolute;
@@ -56,6 +57,7 @@
                 line-height: 1.2;
 
                 & h1{
+                    color: $primary-color;
                     font-size: 4rem;
                     margin-bottom: 1rem;
                 }
@@ -75,9 +77,9 @@
     }
 
     .buttons button{
-        border: 2px solid #fff;
+        border: 2px solid $secondary-color;
         background-color: transparent;
-        color: #FFF;
+        color: $secondary-color;
         border-radius: 50%;
         padding: 13px 15px;
         cursor: pointer;
@@ -85,7 +87,7 @@
         position: absolute;
     
         &:hover{
-            background-color: white;
+            background-color: $secondary-color;
             color: #333;
         }
         &#next{

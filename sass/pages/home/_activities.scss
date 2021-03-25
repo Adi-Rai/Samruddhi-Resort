@@ -1,0 +1,11 @@
+ // Activities Section
+ .activities{
+    padding: 6rem 0 0;
+    position: relative;
+    height: 120rem;
+
+    &-title{
+        @include sectionHeading;
+    }
+        
+}
