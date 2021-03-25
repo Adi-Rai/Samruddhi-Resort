@@ -6,7 +6,7 @@
         overflow: hidden;
         margin: 0 auto;
         width: 90vw;
-        height: 70vh;
+        height: 75vh;
         
 
         .slide{
@@ -19,26 +19,26 @@
             transition: opacity 0.4s ease-in-out;
 
             &:first-child{
-                background-image: url('../../images/accomodation-2.jpg');
+                background-image: url('../images/accomodation-2.jpg');
                 background-repeat: no-repeat;
                 background-position: center bottom 10px;
                 background-size: cover;
             }
 
             &:nth-child(2){
-                background-image: url('../../images/accomodation-1.jpg');
+                background-image: url('../images/accomodation-1.jpg');
                 background-repeat: no-repeat;
                 background-position: center;
             }
 
             &:nth-child(3){
-                background-image: url('../../images/accomodation-3.jpg');
+                background-image: url('../images/accomodation-3.jpg');
                 background-repeat: no-repeat;
                 background-position: center;
             }
 
             &:nth-child(4){
-                background-image: url('../../images/accomodation-4.jpg');
+                background-image: url('../images/accomodation-4.jpg');
                 background-repeat: no-repeat;
                 background-position: center;
             }
@@ -47,7 +47,7 @@
                 font-size: 2.5rem;
                 position: absolute;
                 left: -60rem;
-                bottom: 7rem;
+                bottom: 3rem;
                 width: 60rem;
                 background-color: rgba(255,255,255,0.8);
                 color: #333;

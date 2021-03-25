@@ -14,16 +14,16 @@
     // Main 
     .main{
         width: 100%;
-        height: 80vh;
+        height: 66rem;
     }
 
 
 
     // Activities Section
     .activities{
-        padding: 6rem 0;
+        padding: 6rem 0 0;
         position: relative;
-        height: 150rem;
+        height: 120rem;
 
         &-title{
             @include sectionHeading;
