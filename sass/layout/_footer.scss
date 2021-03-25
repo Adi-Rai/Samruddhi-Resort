@@ -1,0 +1,63 @@
+.footer{
+    padding: 10rem 0;
+    background-image: linear-gradient(to right,rgba(#fff,0.8),rgba(#fff,0.6)),url('../../images/pillow.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 3rem;
+    color: #7B9FAF;
+
+    .navbar-items{
+        .navbar-item{
+            line-height: 1.5;
+            list-style: none;
+            a{
+               color: #7B9FAF;
+               text-decoration: none;
+
+               &:hover{
+                   transition: color 0.2s ease;
+                   color: #C19B76;
+               }
+            }
+        }    
+    }
+
+    .contact{
+        h3{
+            font-size: 4rem;
+            letter-spacing: 2px;
+            font-weight: normal;
+            padding-bottom: 2rem;
+        }
+
+        p{
+            letter-spacing: 2.5px;
+            font-size: 3.5rem;
+        }
+    }
+
+    .social{
+        h3{
+            font-size: 4rem;
+            font-weight: normal;
+            letter-spacing: 2px;
+            padding-bottom: 2rem;
+        }
+
+        a{
+            color:#7B9FAF;
+            padding: 0 15px;
+
+            &:hover{
+                color:#C19B76;
+            }
+        }
+
+        a:first-child{
+            padding: 0 0;
+        }
+    }
+}

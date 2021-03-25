@@ -1,0 +1,51 @@
+    @import 'utilities/variables';
+    @import 'utilities/mixins';
+
+    @import 'base/reset';
+    @import 'layout/navbar';
+    @import 'layout/footer';
+
+    @import 'components/main-cards';
+    @import 'components/activities-cards';
+    @import 'components/event-cards';
+    @import 'components/slider';
+
+
+    // Main 
+    .main{
+        width: 100%;
+        height: 80vh;
+    }
+
+
+
+    // Activities Section
+    .activities{
+        padding: 6rem 0;
+        position: relative;
+        height: 150rem;
+
+        &-title{
+            @include sectionHeading;
+        }
+            
+    }
+
+    // Events Section 
+    .events{
+        padding: 5rem 0  10rem;
+        position: relative;
+        &-title{
+            @include sectionHeading;
+            padding: 0 0 5rem;
+        }
+        
+    }
+
+    //accomodation section
+    .accomodation{
+        &-title{
+            @include sectionHeading;
+            padding: 5rem 0;
+        }
+    }

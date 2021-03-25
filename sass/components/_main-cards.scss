@@ -1,0 +1,91 @@
+.main .cards{
+    width: 100%;
+    position: relative;
+    display: grid;  
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100vh;
+
+    &__imgcontainer--1{
+        padding: 0.5rem;
+        margin: 4rem;
+        width: 34vw;
+        position: absolute;
+        left: 14.5vw;
+        top: 7vh;
+        height: 50rem;
+        background-color: $primary-color;
+        background-image: linear-gradient(326deg, rgba(#134e5e
+
+        , 0.5) 0%, rgba(#71b280
+        , 0.7) 74%),url('../images/clubhouse.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 0.3s ease-in-out;
+
+        &:hover{
+            transform: translateY(-1%);
+        }
+
+        
+        .cards__textcontainer--1{
+            font-size: 4rem;
+            color: $white-color;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%);  
+            line-height: 150%;  
+            .card-title{
+                font-size: 5rem;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                word-spacing: 6px;
+                
+                @include text-underline-animation($white-color,0.5s);
+            } 
+        }    
+    }
+
+    
+    &__imgcontainer--2{
+        padding: 0.5rem;
+        margin: 4rem;
+        width: 34vw;
+        height: 50rem;
+        position: absolute;
+        left: 49vw;
+        top: 2vh;
+        background-color: $primary-color;
+        background-image: linear-gradient(326deg, rgba(#24c6dc
+        , 0.5) 0%, rgba(#514a9d
+        , 0.7) 74%),url('../images/farmstay.jpg');
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        &:hover{
+            transform: translateY(-1%);
+        }
+
+        .cards__textcontainer--2{
+            font-size: 4rem;
+            position: absolute;
+            color: $white-color;
+            text-align: center;
+            width: 100%;
+            top: 29%;
+            left: 52%;
+            transform: translate(-50%);
+            line-height:150%;
+            .card-title{
+                font-size: 5rem;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                word-spacing: 6px;
+                
+                @include text-underline-animation($white-color,0.5s);
+            }
+        } 
+    }
+}

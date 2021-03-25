@@ -1,0 +1,195 @@
+.activities {
+    &__container--1{
+        width:100%;
+    .img-container{
+        position: relative;
+        img{
+            position: absolute;
+            width: 30vw;
+            height:40vh;
+            top: 5vh; 
+            left: 16vw;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                z-index: 10;
+                outline: solid 8px $secondary-color;
+                outline-offset: 10px;
+                transform: translateY(-4%);
+            }
+        }
+        
+    }
+
+    .text-container{
+        font-size: 2.2rem;
+        background-color: $white-color;
+        border: 5px solid $primary-color;
+        text-align: left;
+        padding: 1.5rem 0rem 1.5rem 3.5rem;
+        width: 20%;
+        height: 26rem;
+        position: absolute;
+        top: 25vh ;
+        left: 44vw;
+        z-index: 1;
+        &-title{
+            font-size:3.5rem;
+            font-weight: normal;
+            text-align: left;
+            letter-spacing: 1.5px;
+            margin-bottom:3rem ;
+            font-family: cursive;
+        }
+        
+        .center-star{
+            background:$tertiary-color;
+            
+            &:before{
+            content: "--★----";
+            color: $tertiary-color;
+            display: inline-block;
+            position: absolute;
+            top: 8.8vh;
+            left: 2.5vw;
+            margin: 0 0 0 -3px;
+            font-size: 20px;
+            line-height: 0;
+            text-shadow: 0 0 3px lighten(darken($white-color, 20%), 5%);
+            }
+        }
+
+        &-desc{
+            line-height: 150%;
+        }
+    }
+}
+
+&__container--2{
+    .img-container{
+        position: relative;
+        img{
+            position: absolute;
+            width: 30vw;
+            height:40vh;
+            top: 55vh; 
+            right: 15vw;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                z-index: 10;
+                outline: solid 8px $secondary-color;
+                outline-offset: 10px;
+                transform: translateY(-4%);
+            }
+        }
+    }
+
+    .text-container{
+        font-size: 2.2rem;
+        border: 5px solid $primary-color;
+        background-color: $white-color;
+        text-align: left;
+        padding: 1.5rem 2.5rem 1.5rem 2rem;
+        width: 20%;
+        height: 26rem;
+        position: absolute;
+        top: 76vh ;
+        right: 42vw;
+        z-index: 1;
+        &-title{
+            font-size:3.5rem;
+            font-weight: normal;
+            text-align: left;
+            letter-spacing: 1.5px;
+            margin-bottom:3rem ;
+            font-family: cursive;
+        }
+
+        .center-star{
+            background:$tertiary-color  ;
+            
+            &:before{
+            content: "--★----";
+            color: $tertiary-color;
+            display: inline-block;
+            position: absolute;
+            top: 8.8vh;
+            left: 2.5vw;
+            margin: 0 0 0 -3px;
+            font-size: 20px;
+            line-height: 0;
+            text-shadow: 0 0 3px lighten(darken($white-color, 20%), 5%);
+            }
+        }
+
+        &-desc{
+            line-height: 150%;
+        }
+    }
+}
+
+&__container--3{
+    .img-container{
+        position: relative;
+
+        img{
+            position: absolute;
+            width: 30vw;
+            height:40vh;
+            top: 105vh; 
+            left: 16vw;
+            transition: all 0.2s ease-in-out;
+
+            &:hover{
+                z-index: 10;
+                outline: solid 8px $secondary-color;
+                outline-offset: 10px;
+                transform: translateY(-4%);
+            }
+        }
+    }
+    .text-container{
+        font-size: 2.2rem;
+        border: 5px solid $primary-color;
+        background-color: $white-color;
+        text-align: left;
+        padding: 1.5rem 0.5rem 1.5rem 3.5rem;
+        width: 20%;
+        height: 26rem;
+        position: absolute;
+        top: 125vh ;
+        left: 44vw;
+        z-index: 1;
+        &-title{
+            font-size:3.5rem;
+            font-weight: normal;
+            text-align: left;
+            letter-spacing: 1.5px;
+            margin-bottom:3rem ;
+            font-family: cursive;
+        }
+
+        .center-star{
+            background:$tertiary-color;
+            
+            &:before{
+            content: "--★----";
+            color: $tertiary-color;
+            display: inline-block;
+            position: absolute;
+            top: 8.8vh;
+            left: 2.5vw;
+            margin: 0 0 0 -3px;
+            font-size: 20px;
+            line-height: 0;
+            text-shadow: 0 0 3px lighten(darken($white-color, 20%), 5%);
+            }
+        }
+
+        &-desc{
+            line-height: 150%;
+        }
+    }
+}
+}

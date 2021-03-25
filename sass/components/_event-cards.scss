@@ -1,0 +1,156 @@
+.events__cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    &--1{
+        width: 50rem;
+        height: 60rem;
+        background-image: url('../../images/private-event.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        
+
+         .textcontainer{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            color: $white-color;
+            backdrop-filter: blur(6rem);
+            text-align: center;
+            width: 70%;
+
+            .card-title{
+                text-transform: uppercase;
+                font-size: 6rem;
+                letter-spacing: 5px;
+                width: 100%;
+                margin-bottom: 1rem;
+                @include text-underline-animation($white-color,0.4s);
+            }
+            
+            .card-subtitle{
+                font-size: 2.5rem;
+            }
+        }
+        
+        .button{
+            .button-small{
+                font-size: 2.8rem;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                backdrop-filter: blur(3rem);
+                text-align: center;
+                a{
+                    color: $white-color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    &--2{
+        width: 50rem;
+        height: 60rem;
+        background-image: url('../../images/corporate-events.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        & .textcontainer{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            color: $white-color;
+            backdrop-filter: blur(6rem);
+            text-align: center;
+            width: 80%;
+
+
+            .card-title{
+                text-transform: uppercase;
+                font-size: 5.8rem;
+                letter-spacing: 2px;
+                width: 90%;
+                margin-bottom: 1rem;
+                @include text-underline-animation($white-color,0.4s );
+            }
+            
+            .card-subtitle{
+                font-size: 2.5rem;
+            }
+        }
+
+        .button{
+            .button-small{
+                font-size: 2.8rem;
+                backdrop-filter: blur(3rem);
+                background-color: black;
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                a{
+                    color: $white-color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }    
+
+
+    &--3{
+        width: 50rem;
+        height: 60rem;
+        background-image: url('../../images/fundraiser.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        & .textcontainer{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            color: $white-color;
+            backdrop-filter: blur(2rem);
+            text-align: center;
+            width: 80;
+
+
+            .card-title{
+                text-transform: uppercase;
+                font-size: 5.8rem;
+                letter-spacing: 2px;
+                width: 90%;
+                margin-bottom: 1rem;
+                @include text-underline-animation($white-color,0.4s);
+            }
+            
+            .card-subtitle{
+                font-size: 2.5rem;
+            }
+        }
+        
+        .button{
+            .button-small{
+                font-size: 2.8rem;
+                backdrop-filter: blur(2rem);
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                a{
+                    color: $white-color;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+}
