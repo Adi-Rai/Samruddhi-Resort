@@ -96,7 +96,7 @@
             align-items: center;
             color: white;
             .navbar-item{
-                @include text-underline-animation($white-color,0.2s);
+                @include text-underline-animation2($secondary-color,0.2s);
             }
             
         }  
