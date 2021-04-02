@@ -1,5 +1,6 @@
     @import 'utilities/variables';
     @import 'utilities/mixins';
+    @import 'utilities/effects';
 
     @import 'base/reset';
     @import 'layout/navbar';
@@ -9,11 +10,14 @@
     @import 'pages/home/activities';
     @import 'pages/home/events';
     @import 'pages/home/accomodation';
+    @import 'pages/about/about';
+    @import 'pages/contact/contact';
 
     @import 'components/main-cards';
     @import 'components/activities-cards';
     @import 'components/event-cards';
     @import 'components/slider';
+    @import 'components/contact-form'
  
     
 

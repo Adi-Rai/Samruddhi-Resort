@@ -1,0 +1,8 @@
+.highlight{
+    color: $secondary-color !important;
+    text-decoration: underline !important;
+    
+    &:hover{
+        pointer-events: none;
+    }
+}
