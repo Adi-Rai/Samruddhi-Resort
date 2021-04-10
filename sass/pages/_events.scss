@@ -1,9 +1,10 @@
 .events{
     margin: 10rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     .image-container{
         margin: 0 auto 14rem;
-        width: 60%;
-        height: 37.5rem;
+        width: 80%;
+        height: 47.5rem;
         background-image: url('../images/events-main.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -24,6 +25,8 @@
                 text-transform: uppercase;
                 font-weight: lighter;
                 margin-bottom: 0.4rem;
+                font-family: 'Open Sans',sans-serif;
+                font-weight: 600;
             }
             p{
                 font-size: 4rem;
@@ -35,6 +38,12 @@
                 @include button;
                 color: $white-color;
             }
+        }
+
+        &:hover{
+            scale: 1.1;
+            transform: translateY(-10px);
+            transition: all 0.2s ease-in-out    ;
         }
     }
 
@@ -49,6 +58,7 @@
                 font-size: 4.5rem;
                 color: $primary-color;
                 margin-bottom: 2rem;
+                font-family: 'Open Sans',sans-serif;
                 @include text-underline-animation($primary-color,0.2s);
             }
 
@@ -108,6 +118,7 @@
                 font-size: 4.5rem;
                 color: $primary-color;
                 margin-bottom: 2rem;
+                font-family: 'Open Sans',sans-serif;
                 @include text-underline-animation($primary-color,0.2s);
             }
 
@@ -168,6 +179,7 @@
                 font-size: 4.5rem;
                 color: $primary-color;
                 margin-bottom: 2rem;
+                font-family: 'Open Sans',sans-serif;
                 @include text-underline-animation($primary-color,0.2s);
             }
 

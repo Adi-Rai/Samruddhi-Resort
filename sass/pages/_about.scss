@@ -1,7 +1,8 @@
 .about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     &-title{
         @include sectionHeading;
-        padding: 2.5rem 0 4rem;
+        padding: 6rem 0 6rem;
     }
 
     &__row--1{
@@ -22,6 +23,8 @@
                 text-transform: capitalize;
                 word-spacing: 7px;
                 border-bottom: solid 2px $primary-color;
+                font-family: 'Open Sans',sans-serif;
+                font-weight: 600;
             }
             
             p{
@@ -64,6 +67,8 @@
                 text-transform: capitalize;
                 word-spacing: 7px;
                 border-bottom: solid 2px $primary-color;
+                font-family: 'Open Sans',sans-serif;
+                font-weight: 600;
             }
             
             p{
@@ -106,6 +111,8 @@
                 text-transform: capitalize;
                 word-spacing: 7px;
                 border-bottom: solid 2px $primary-color;
+                font-family: 'Open Sans',sans-serif;
+                font-weight: 600;
             }
             
             p{

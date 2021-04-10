@@ -30,7 +30,7 @@
         width: 20%;
         height: 26rem;
         position: absolute;
-        top: 25vh ;
+        top: 40vh ;
         left: 44vw;
         z-index: 1;
         text-align: justify;
@@ -45,18 +45,20 @@
         }
 
         &-title{
-            font-size:3rem;
+            font-size:2.8rem;
             font-weight: normal;
             text-align: left;
             letter-spacing: 1.5px;
             margin-bottom:1.5rem ;
-            font-family: cursive;
+            font-family: 'Open Sans',sans-serif;
+            font-weight: 600;
         }
         
 
         &-desc{
             line-height: 1.8;
             padding: 0 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
     }
 }
@@ -90,7 +92,7 @@
         width: 20%;
         height: 26rem;
         position: absolute;
-        top: 76vh ;
+        top: 90vh ;
         right: 42vw;
         z-index: 1;
         
@@ -105,17 +107,19 @@
         }
 
         &-title{
-            font-size:3rem;
+            font-size:2.8rem;
             font-weight: normal;
             text-align: left;
             letter-spacing: 1.5px;
             margin-bottom:1.5rem ;
-            font-family: cursive;
+            font-family: 'Open Sans',sans-serif;
+            font-weight: 600;
         }
 
         &-desc{
             line-height: 1.8;
             padding: 0 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
     }
 }
@@ -149,7 +153,7 @@
         width: 20%;
         height: 26rem;
         position: absolute;
-        top: 125vh ;
+        top: 140vh ;
         left: 44vw;
         z-index: 1;
 
@@ -163,17 +167,19 @@
          }
 
         &-title{
-            font-size:3rem;
+            font-size:2.8rem;
             font-weight: normal;
             text-align: left;
             letter-spacing: 1.5px;
             margin-bottom:1.5rem ;
-            font-family: cursive;
+            font-family: 'Open Sans',sans-serif;
+            font-weight: 600;
         }
 
         &-desc{
             line-height: 1.8;
             padding: 0 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
  
     }

@@ -1,5 +1,5 @@
 .navbar{
-    
+    font-family: 'Open Sans', sans-serif;
     &__1{
         font-size: 2rem;
         display: flex;
@@ -35,8 +35,6 @@
             
         }
         &--main{
-            // border-left: solid 2px $black-color;
-            // border-right: solid 2px $black-color;
             font-size: 2.2rem;
             width: 100%;
             max-width: 33vw;

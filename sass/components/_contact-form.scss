@@ -11,7 +11,8 @@
   #contact input[type="url"],
   #contact textarea,
   #contact button[type="submit"] {
-    font: 400 16px/16px "Roboto", Helvetica, Arial, sans-serif;
+    font: 400 16px/16px;
+    font-family: 'Open Sans',sans-serif;
   }
   
   #contact {

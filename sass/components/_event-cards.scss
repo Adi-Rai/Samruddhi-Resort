@@ -32,15 +32,18 @@
                 width: 100%;
                 margin-bottom: 1rem;
                 @include text-underline-animation2($secondary-color,0.4s);
+                font-family: 'Lato',sans-serif;
             }
             
             .card-subtitle{
                 font-size: 2.5rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
             }
         }
         
         .fancy-link{
             .fancy-link--small{
+                font-family: 'Open Sans',sans-serif;
                 font-size: 2.8rem;
                 position: absolute;
                 bottom: 0;
@@ -88,15 +91,18 @@
                 width: 90%;
                 margin-bottom: 1rem;
                 @include text-underline-animation2($secondary-color,0.4s);
+                font-family: 'Open Sans',sans-serif;
             }
             
             .card-subtitle{
                 font-size: 2.5rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
             }
         }
 
         .fancy-link{
             .fancy-link--small{
+                font-family: 'Open Sans',sans-serif;
                 font-size: 2.8rem;
                 backdrop-filter: blur(3rem);
                 background-color: black;
@@ -145,10 +151,12 @@
                 width: 90%;
                 margin-bottom: 1rem;
                 @include text-underline-animation2($secondary-color,0.4s);
+                font-family: 'Open Sans',sans-serif;
             }
             
             .card-subtitle{
                 font-size: 2.5rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
             }
         }
         
@@ -160,6 +168,7 @@
                 position: absolute;
                 bottom: 0;
                 width: 100%;
+                font-family: 'Open Sans',sans-serif;
                 a{
                     color: $white-color;
                     text-decoration: none;

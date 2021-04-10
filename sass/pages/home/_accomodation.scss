@@ -1,7 +1,8 @@
  //accomodation section
  .accomodation{
+     margin: 5rem 0;
     &-title{
         @include sectionHeading;
-        padding: 5rem 0;
+        padding-bottom: 8rem 0;
     }
 }

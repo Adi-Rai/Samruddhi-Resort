@@ -2,6 +2,7 @@
     margin: 12rem 8rem 10rem;
     display: flex;
     justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     .text-container{
         display: inline-block;
         max-width:50rem;
@@ -9,6 +10,7 @@
 
         h2{
             font-size: 5rem;
+            font-family: 'Open Sans',sans-serif;
             margin-bottom: 2.5rem;
             text-transform: uppercase;
             word-spacing: 8px;
@@ -79,7 +81,7 @@
 }
 
 .facilities{
-    margin: 5rem 8rem 5rem;
+    margin: 8rem 8rem 5rem;
 
     h2{
         font-size: 4.5rem;
@@ -87,8 +89,9 @@
         word-spacing: 4px;
         color: $primary-color;
         font-weight: normal;
-        margin-bottom: 2rem;
-        
+        margin: 8rem 0 8rem;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 600;
         text-align: center;
     }
 
@@ -113,7 +116,8 @@
                 display: inline-block;
                 font-size: 3rem;
                 color: $primary-color;
-                font-family: cursive;
+                font-family: 'Open Sans',sans-serif;
+                font-weight: 400;
                 position: relative;
                 left: 40%;
                 transform: translateX(-50%);

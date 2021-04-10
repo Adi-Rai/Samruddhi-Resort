@@ -1,8 +1,9 @@
 .accomodation{
     position: relative;
-    padding: 0 0 15rem;
+    padding: 0 0 8rem;
     .slider{
         position:relative;
+        top: 5rem;
         overflow: hidden;
         margin: 0 auto;
         width: 90vw;
@@ -55,11 +56,12 @@
                 padding: 3.5rem;
                 opacity: 0;
                 line-height: 1.2;
-
+                font-family: Georgia, 'Times New Roman', Times, serif;
                 & h1{
                     color: $primary-color;
                     font-size: 4rem;
                     margin-bottom: 1rem;
+                    font-family: 'Open Sans',sans-serif;
                 }
             }
         }

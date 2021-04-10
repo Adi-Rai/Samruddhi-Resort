@@ -28,6 +28,7 @@
 
         
         .cards__textcontainer--1{
+            font-family:'Open Sans', sans-serif;
             font-size: 4rem;
             color: $white-color;
             text-align: center;
@@ -42,7 +43,7 @@
                 text-transform: uppercase;
                 letter-spacing: 1.5px;
                 word-spacing: 6px;
-                
+                font-family: 'Open Sans', sans-serif;
                 @include text-underline-animation2($secondary-color,0.5s);
             } 
 
@@ -74,6 +75,7 @@
         }
 
         .cards__textcontainer--2{
+            font-family:'Open Sans', sans-serif;
             font-size: 4rem;
             position: absolute;
             color: $white-color;
@@ -88,7 +90,7 @@
                 text-transform: uppercase;
                 letter-spacing: 1.5px;
                 word-spacing: 6px;
-                
+                font-family: 'Open Sans', sans-serif;
                 @include text-underline-animation2($secondary-color,0.5s);
             }
 
