@@ -1,0 +1,218 @@
+.events{
+    margin: 10rem 0;
+    .image-container{
+        margin: 0 auto 14rem;
+        width: 60%;
+        height: 37.5rem;
+        background-image: url('../images/events-main.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        outline: solid 10px $secondary-color;
+        outline-offset: 8px;
+        .text-box{
+            color: $white-color;
+            position: relative;
+            top: 25%;
+            left: 10%;
+            width:80%;
+            translate: transform(-50%,-50%);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            h2{
+                font-size: 6rem;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin-bottom: 0.4rem;
+            }
+            p{
+                font-size: 4rem;
+                font-family:sans-serif;
+                text-transform: capitalize;
+                margin-bottom: 3.5rem;
+            }
+            button{
+                @include button;
+                color: $white-color;
+            }
+        }
+    }
+
+    .private-events{
+        margin: 14rem 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .desc{
+            width: 60%;
+            h3{
+                font-size: 4.5rem;
+                color: $primary-color;
+                margin-bottom: 2rem;
+                @include text-underline-animation($primary-color,0.2s);
+            }
+
+            p{
+                font-size: 2rem;
+                color: lighten(#333,15%);
+                width: 85%;
+                text-align: justify;
+                margin-bottom: 2rem;
+                line-height: 1.4;
+            }
+
+            ul{
+                font-size: 2rem;
+                color: lighten(#333,15%);
+                list-style: none;
+                margin-bottom: 3rem;    
+            }
+
+            li{
+                margin: 0.5rem 0;
+            }
+
+            ul li::before{
+                content: "\2022";
+                color: $primary-color; /* Change the color */
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                width: 2rem; /* Also needed for space (tweak if needed) */
+                margin-left: 0.2rem; /* Also needed for space (tweak if needed) */
+            }
+
+            button{
+                @include button;
+            }
+        }
+
+        .image{
+            
+            img{
+                box-shadow: -5px -5px 30px 5px $secondary-color, 5px 5px 30px 5px $primary-color;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+
+    .corporate-events{
+        margin: 14rem 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .desc{
+            width: 60%;
+            h3{
+                font-size: 4.5rem;
+                color: $primary-color;
+                margin-bottom: 2rem;
+                @include text-underline-animation($primary-color,0.2s);
+            }
+
+            p{
+                font-size: 2rem;
+                color: lighten(#333,15%);
+                width: 85%;
+                text-align: justify;
+                margin-bottom: 2rem;
+                line-height: 1.4;
+            }
+
+            ul{
+                font-size: 2rem;
+                color: lighten(#333,15%);
+                list-style: none;
+                margin-bottom: 3rem;
+            }
+
+            li{
+                margin: 0.5rem 0;
+            }
+
+            ul li::before{
+                content: "\2022";
+                color: $primary-color; /* Change the color */
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                width: 2rem; /* Also needed for space (tweak if needed) */
+                margin-left: 0.2rem; /* Also needed for space (tweak if needed) */
+            }
+
+            button{
+                @include button;
+            }
+        }
+
+        .image{
+            
+            img{
+                box-shadow: -5px -5px 30px 5px $secondary-color, 5px 5px 30px 5px $primary-color;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+        
+    }
+
+    .fundraising-events{
+        margin: 14rem 8rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .desc{
+            width: 60%;
+            h3{
+                font-size: 4.5rem;
+                color: $primary-color;
+                margin-bottom: 2rem;
+                @include text-underline-animation($primary-color,0.2s);
+            }
+
+            p{
+                font-size: 2rem;
+                color: lighten(#333,15%);
+                width: 85%;
+                text-align: justify;
+                margin-bottom: 2rem;
+                line-height: 1.4;
+            }
+
+            ul{
+                font-size: 2rem;
+                color: lighten(#333,15%);
+                list-style: none;
+                margin-bottom: 3rem;
+            }
+
+            li{
+                margin: 0.5rem 0;
+            }
+
+            ul li::before{
+                content: "\2022";
+                color: $primary-color; /* Change the color */
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                width: 2rem; /* Also needed for space (tweak if needed) */
+                margin-left: 0.2rem; /* Also needed for space (tweak if needed) */
+            }
+
+            button{
+                @include button;
+            }
+        }
+
+        .image{
+            
+            img{
+                box-shadow: -5px -5px 30px 5px $secondary-color, 5px 5px 30px 5px $primary-color;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+}

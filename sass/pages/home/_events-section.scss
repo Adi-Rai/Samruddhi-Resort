@@ -1,8 +1,8 @@
     // Events Section 
-    .events{
+    .events-section{
         padding: 5rem 0  10rem;
         position: relative;
-        &-title{
+        .events-title{
             @include sectionHeading;
             padding: 0 0 5rem;
         }
