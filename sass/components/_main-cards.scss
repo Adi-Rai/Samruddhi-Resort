@@ -14,10 +14,12 @@
         top: 7vh;
         height: 50rem;
         background-color: $primary-color;
-        background-image: linear-gradient(326deg, rgba(#134e5e
+        // background-image: linear-gradient(326deg, rgba(#134e5e
 
-        , 0.5) 0%, rgba(#71b280
-        , 0.7) 74%),url('../images/clubhouse.jpg');
+        // , 0.5) 0%, rgba(#71b280
+        // , 0.7) 74%),url('../images/clubhouse.jpg');
+        // background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.9) 100%),url('../images/clubhouse.jpg');
+        background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(255,255,255, 0.9) 100%),url('../images/clubhouse.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         transition: all 0.3s ease-in-out;
@@ -30,7 +32,7 @@
         .cards__textcontainer--1{
             font-family:'Open Sans', sans-serif;
             font-size: 4rem;
-            color: $white-color;
+            color: $primary-color;
             text-align: center;
             position: absolute;
             width: 100%;
@@ -64,9 +66,12 @@
         left: 49vw;
         top: 2vh;
         background-color: $primary-color;
-        background-image: linear-gradient(326deg, rgba(#24c6dc
-        , 0.5) 0%, rgba(#514a9d
-        , 0.7) 74%),url('../images/farmstay.jpg');
+        // background-image: linear-gradient(326deg, rgba(#24c6dc
+        // , 0.5) 0%, rgba(#514a9d
+        // , 0.7) 74%),url('../images/farmstay.jpg');
+
+        // background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.8) 100%),url('../images/farmstay.jpg');
+        background-image: linear-gradient(rgba(0,0,0, 0) 0%,rgba(255,255,255, 0.9) 100%),url('../images/farmstay.jpg');
         
         background-repeat: no-repeat;
         background-size: cover;
@@ -78,10 +83,10 @@
             font-family:'Open Sans', sans-serif;
             font-size: 4rem;
             position: absolute;
-            color: $white-color;
+            color: $primary-color;
             text-align: center;
             width: 100%;
-            top: 29%;
+            top: 60%;
             left: 52%;
             transform: translate(-50%);
             line-height:150%;
@@ -91,7 +96,7 @@
                 letter-spacing: 1.5px;
                 word-spacing: 6px;
                 font-family: 'Open Sans', sans-serif;
-                @include text-underline-animation2($secondary-color,0.5s);
+                @include text-underline-animation2($secondary-color,0.5s);   
             }
 
             &:hover{

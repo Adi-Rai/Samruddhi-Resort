@@ -31,7 +31,7 @@
 @mixin text-underline-animation2($color,$dur) {
     a{
         text-decoration: none;
-        color: $white-color;
+        color: $primary-color;
         position:relative;
     
         &:hover{
