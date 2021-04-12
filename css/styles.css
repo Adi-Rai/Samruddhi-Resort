@@ -1074,50 +1074,6 @@ fieldset {
         z-index: 10;
         scale: 1.2; }
 
-.facilities {
-  margin: 8rem 8rem 5rem; }
-  .facilities h2 {
-    font-size: 4.5rem;
-    text-transform: capitalize;
-    word-spacing: 4px;
-    color: #9D3E5B;
-    font-weight: normal;
-    margin: 8rem 0 8rem;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: 600;
-    text-align: center; }
-  .facilities .special-list {
-    text-align: center; }
-    .facilities .special-list .list-row {
-      display: flex;
-      align-items: center;
-      width: 50%;
-      height: 10rem;
-      margin: 3.5rem auto;
-      padding: 0.5rem 0;
-      transition: all 0.3s ease-in-out; }
-      .facilities .special-list .list-row img {
-        border-radius: 50%;
-        width: 9rem;
-        position: relative;
-        left: 30%;
-        transform: translateX(-50%); }
-      .facilities .special-list .list-row .list-item {
-        display: inline-block;
-        font-size: 3rem;
-        color: #9D3E5B;
-        font-family: 'Open Sans',sans-serif;
-        font-weight: 400;
-        position: relative;
-        left: 40%;
-        transform: translateX(-50%); }
-      .facilities .special-list .list-row:hover {
-        transform: translateY(-3px);
-        scale: 1.05;
-        background-color: #404040; }
-        .facilities .special-list .list-row:hover .list-item {
-          color: #ffffff; }
-
 .club-house {
   margin: 12rem 8rem 10rem;
   display: flex;
@@ -1222,8 +1178,67 @@ fieldset {
         z-index: 10;
         scale: 1.2; }
 
+.facilities-intro {
+  margin: 8rem 8rem 15rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .facilities-intro .text-container {
+    width: 45%; }
+    .facilities-intro .text-container h2 {
+      font-family: 'Open Sans',sans-serif;
+      font-weight: 400;
+      font-size: 4.5rem;
+      color: #9D3E5B;
+      text-transform: uppercase; }
+      .facilities-intro .text-container h2 a {
+        text-decoration: none;
+        color: #9D3E5B;
+        position: relative; }
+        .facilities-intro .text-container h2 a:hover {
+          color: #9D3E5B; }
+        .facilities-intro .text-container h2 a::before {
+          content: "";
+          position: absolute;
+          width: 90%;
+          height: 2px;
+          bottom: 0;
+          left: 6%;
+          background-color: #9D3E5B;
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all 0.3s ease-in-out 0s; }
+        .facilities-intro .text-container h2 a:hover::before {
+          visibility: visible;
+          transform: scaleX(1); }
+    .facilities-intro .text-container p {
+      font-size: 2.2rem;
+      line-height: 1.7;
+      color: #737373;
+      margin: 2rem 0; }
+  .facilities-intro .image-container img {
+    width: 23rem;
+    height: 20rem;
+    transition: all 0.2s ease-in; }
+    .facilities-intro .image-container img:hover {
+      outline: 8px solid #fbf0ac;
+      outline-offset: 5px;
+      scale: 1.2; }
+  .facilities-intro .image-container .img-1 {
+    position: relative;
+    top: 5rem; }
+  .facilities-intro .image-container .img-2 {
+    position: relative;
+    top: 1.5rem;
+    z-index: 1; }
+  .facilities-intro .image-container .img-3 {
+    position: relative;
+    top: 5rem; }
+
 .facilities {
-  margin: 5rem 8rem 5rem; }
+  margin: 15rem 8rem 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
   .facilities h2 {
     font-size: 4.5rem;
     font-family: 'Open Sans',sans-serif;
@@ -1235,11 +1250,18 @@ fieldset {
     margin-bottom: 2rem;
     text-align: center; }
   .facilities .special-list {
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .facilities .special-list-1 {
+      width: 50%; }
+    .facilities .special-list-2 {
+      width: 50%; }
     .facilities .special-list .list-row {
       display: flex;
       align-items: center;
-      width: 50%;
+      width: 80%;
       height: 10rem;
       margin: 3.5rem auto;
       padding: 0.5rem 0;
@@ -1572,3 +1594,143 @@ fieldset {
       transition: all 0.2s ease-in-out; }
       .events .fundraising-events .image img:hover {
         transform: translateY(-10px); }
+
+.urbanfarms {
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+  .urbanfarms-title {
+    text-align: center;
+    font-size: 4.5rem;
+    color: #9D3E5B;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 6rem 0 6rem; }
+    .urbanfarms-title a {
+      text-decoration: none;
+      color: #9D3E5B;
+      position: relative; }
+      .urbanfarms-title a:hover {
+        color: #9D3E5B; }
+      .urbanfarms-title a::before {
+        content: "";
+        position: absolute;
+        width: 90%;
+        height: 2px;
+        bottom: 0;
+        left: 6%;
+        background-color: #9D3E5B;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s; }
+      .urbanfarms-title a:hover::before {
+        visibility: visible;
+        transform: scaleX(1); }
+  .urbanfarms__row--1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5rem 0 5rem; }
+    .urbanfarms__row--1 .text-container {
+      text-align: justify;
+      width: 50%;
+      font-size: 2rem;
+      padding: 0 4rem; }
+      .urbanfarms__row--1 .text-container h4 {
+        padding-bottom: 0.8rem;
+        width: 35%;
+        font-size: 3rem;
+        text-transform: capitalize;
+        word-spacing: 7px;
+        border-bottom: solid 2px #9D3E5B;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 600; }
+      .urbanfarms__row--1 .text-container p {
+        padding: 2rem 2rem 0 0;
+        line-height: 2;
+        color: rgba(51, 51, 51, 0.7);
+        margin-bottom: 1.5rem; }
+    .urbanfarms__row--1 .image-container {
+      width: 50%; }
+      .urbanfarms__row--1 .image-container img {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        max-height: 40rem;
+        outline: solid 8px #fbf0ac;
+        outline-offset: 8px; }
+        .urbanfarms__row--1 .image-container img:hover {
+          scale: 1.05;
+          transition: scale 0.3s ease-in-out; }
+  .urbanfarms__row--2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10rem 0 5rem; }
+    .urbanfarms__row--2 .text-container {
+      text-align: justify;
+      width: 50%;
+      font-size: 2rem;
+      padding: 0 4rem; }
+      .urbanfarms__row--2 .text-container h4 {
+        padding-bottom: 0.8rem;
+        width: 35%;
+        font-size: 3rem;
+        text-transform: capitalize;
+        word-spacing: 7px;
+        border-bottom: solid 2px #9D3E5B;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 600; }
+      .urbanfarms__row--2 .text-container p {
+        padding: 2rem 2rem 0 0;
+        line-height: 2;
+        color: rgba(51, 51, 51, 0.7);
+        margin-bottom: 1.5rem; }
+    .urbanfarms__row--2 .image-container {
+      width: 50%; }
+      .urbanfarms__row--2 .image-container img {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        max-height: 40rem;
+        outline: solid 8px #fbf0ac;
+        outline-offset: 8px; }
+        .urbanfarms__row--2 .image-container img:hover {
+          scale: 1.05;
+          transition: scale 0.3s ease-in-out; }
+  .urbanfarms__row--3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10rem 0 8rem; }
+    .urbanfarms__row--3 .text-container {
+      text-align: justify;
+      width: 50%;
+      font-size: 2rem;
+      padding: 0 4rem; }
+      .urbanfarms__row--3 .text-container h4 {
+        padding-bottom: 0.8rem;
+        width: 35%;
+        font-size: 3rem;
+        text-transform: capitalize;
+        word-spacing: 7px;
+        border-bottom: solid 2px #9D3E5B;
+        font-family: 'Open Sans',sans-serif;
+        font-weight: 600; }
+      .urbanfarms__row--3 .text-container p {
+        padding: 2rem 2rem 0 0;
+        line-height: 2;
+        color: rgba(51, 51, 51, 0.7);
+        margin-bottom: 1.5rem; }
+    .urbanfarms__row--3 .image-container {
+      width: 50%; }
+      .urbanfarms__row--3 .image-container img {
+        position: relative;
+        left: 5%;
+        width: 90%;
+        max-height: 40rem;
+        outline: solid 8px #fbf0ac;
+        outline-offset: 8px; }
+        .urbanfarms__row--3 .image-container img:hover {
+          scale: 1.05;
+          transition: scale 0.3s ease-in-out; }
