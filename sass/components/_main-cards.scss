@@ -46,7 +46,7 @@
                 letter-spacing: 1.5px;
                 word-spacing: 6px;
                 font-family: 'Open Sans', sans-serif;
-                @include text-underline-animation2($secondary-color,0.5s);
+                @include text-underline-animation3($secondary-color,0.5s);
             } 
 
             &:hover{
@@ -96,7 +96,7 @@
                 letter-spacing: 1.5px;
                 word-spacing: 6px;
                 font-family: 'Open Sans', sans-serif;
-                @include text-underline-animation2($secondary-color,0.5s);   
+                @include text-underline-animation3($secondary-color,0.5s);   
             }
 
             &:hover{
